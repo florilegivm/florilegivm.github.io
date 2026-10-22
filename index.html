@@ -34,6 +34,7 @@
 
   /* Шапка — скромно */
   header.wrap { padding-top: 56px; padding-bottom: 32px; text-align: center; }
+  .band { background: url("images/pattern.jpg") repeat; background-size: 450px; margin-bottom: 28px; }
   .name {
     margin: 0;
     font-family: var(--serif);
@@ -138,11 +139,11 @@
 </head>
 <body>
 
-<header class="wrap">
+<div class="band"><header class="wrap">
   <h1 class="name">Ирина Пушкарева</h1>
   <p class="genre">ботаническая акварель</p>
   <p class="about" id="about" hidden></p>
-</header>
+</header></div>
 
 <main class="wrap">
   <div class="gallery" id="gallery"></div>
